@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Force a pure black background and custom scrollbar */
+body {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
